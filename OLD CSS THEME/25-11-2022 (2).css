@@ -1,0 +1,283 @@
+.loginbutton {
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s !important;
+    -moz-transition: all ease 0.3s !important;
+    border: 1px solid #61223b;
+    background-color: #61223b !important;
+    letter-spacing: -0.01em !important;
+}
+
+.card-body{
+padding-top: 15px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 15px;
+}
+
+.logincard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+.logincard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-login {
+    width: 25%;
+}
+
+.pagelayout-frontpage .card {
+      background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
+h3.sectionname {
+    font-size: 1.2rem;
+   color: #1E1B1D
+}
+
+body {
+    background-color: white; 
+}
+
+.navbar-light {
+    border-bottom: 3px solid #61223b;
+}
+
+#frontpage-course-list h2 {
+    margin-bottom: 9px;
+    text-transform: uppercase;
+    padding: .5rem;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navbar-light .navbar-brand {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-light .navbar-brand.has-logo {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.action-menu .dropdown-toggle {
+    text-decoration: none;
+}
+
+h1 {
+color: #FFFFFF
+}
+
+h2, h3 {
+    color: #61223b;
+}
+
+ .block-region .card-body .card-block .card-title, .block-region #page-enrol-users #filterform .card-title, #page-enrol-users .block-region #filterform .card-title, .block-region .userprofile .profile_tree section .card-title, .userprofile .profile_tree .block-region section .card-title, .block-region .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-title, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .block-region .yui-layout-unit-right .card-title, .block-region .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-title, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .block-region .yui-layout-unit-bottom .card-title, .block-region .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-title, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .block-region .chat-message.course-theme .card-title, .block-region .well .card-title {
+    padding: 12px;
+    background-color: #61223b;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h3.card-title {
+    color: white;
+   text-align: center;
+}
+
+body#page-login-index {
+ background: url(/theme/boost/pix/LoginScreen_rotated.jpg);
+ background-size: cover;
+background-position: center;
+}
+
+#page-header .card {
+height: 225px;
+background: url(https://zoom.us/account/branding/p/e74afac2-2808-4fbb-8d3b-7bd04901fda9.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.pagelayout-incourse #page-header .card {
+    height: 150px;
+}
+
+div#page-navbar {
+    position:relative;
+    width: 100%;
+}
+
+#page-header .card-block {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.card, #page-enrol-users #filterform, .que .history, .userprofile .profile_tree section, .groupinfobox, .forumpost, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme, .well {
+    border: 0px
+}
+
+.alert-info, #page-admin-index .releasenoteslink, #adminsettings .form-overridden, .que .formulation {
+    color: #000000;
+    font-size: 16px;
+}
+
+.courses>.paging.paging-morelink {
+    display: none
+}
+
+#quiz-timer {
+    background: none repeat scroll 0 0 #891536;
+    color: #fff;
+    display: none;
+    font-size: 22px;
+    margin-top: 1em;
+    padding: 5px;
+    position: fixed;
+    z-index: 10000;
+}
+
+a .icon {
+    color: #4d5355;
+}
+
+.action-menu .dropdown-toggle {
+    color: #000000;
+    font-family: Lato;
+}
+
+.nav-tabs .nav-link {
+    color: #000000;
+}
+
+.breadcrumb {
+    background-color: #FFFFFF;
+    padding: .5rem .5rem;
+    list-style: none;
+    background-color: rgba(255,255,255,.65);
+    border-radius: .25rem;
+}
+
+a {
+    color: #000000;
+}
+
+#page-footer a {
+    color: #95a3a3;
+    text-decoration: none;
+}
+
+.progress-chart-container .progress-doughnut .progress-text.has-percent {
+    color: #000000;
+}
+
+.progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-100 {
+    stroke: #77b300;
+}
+
+abbr[title], abbr[data-original-title] {
+    border-bottom: 0px solid #818a91;
+}
+
+abbr[title] {
+    text-decoration: underline solid;
+}
+
+.jumbotron {
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #61223b;
+    border-color: #61223b;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.block_myoverview .card-deck .myoverviewimg {
+  height: 0px;
+}
+
+body {
+    font-size: .9rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    padding: 12px;
+    background-color: #61223b;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+.d-inline {
+    display: block!important;
+}
+
+div#page-navbar {
+    width: auto;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    border-radius: 5px;
+}
+
+[data-region="drawer"] {
+    background-color: #f8f7f2;
+    background-image: url(https://applications.usb.ac.za/Shared/Images/Bg2.png);
+    background-size: 320px;
+    background-repeat: repeat;
+}
