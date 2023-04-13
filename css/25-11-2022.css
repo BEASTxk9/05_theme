@@ -425,6 +425,14 @@ img {
     top: -1vh;
 }
 
+
+/* editing button responsiveness (shane) */
+.editing .course-content ul.buttons li.section.main:not(#section-0) {
+    display: block;
+    border-bottom: 1px dotted #dee2e6!important;
+    margin-bottom: 10vh;
+}
+
 /* ________________________________________ */
 /* Shane update */
 /* LOGIN */
@@ -492,6 +500,8 @@ img {
     display: none;
     
     }
+
+
 
 /* ________________________________________ */
 /* Shane update */
