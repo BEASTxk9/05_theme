@@ -218,17 +218,38 @@ h3.card-title {
 }
 
 /* banner nav */
-.breadcrumb {
-    background-color: #FFFFFF;
-    padding: .5rem .5rem;
-    list-style: none;
-    background-color: rgba(255, 255, 255, .65);
-    border-radius: .25rem;
+/* shane update breadcrumb */
+.breadcrumb{
+padding: 0.2rem 0.2rem !important;
+background-color: rgba(128, 128, 128, 0.7) !important;
+color: white !important;
+font-size: 0.7rem !important;
+transition: all 0.3s ease-in-out;
+margin-top: 15vh;
 }
-/* Shane update */
-/* bread crumb */
-div#page-navbar{
-    display: none;
+.breadcrumb-item a{
+    color: white !important;
+font-size: 0.7rem !important;
+transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 410px){
+    .breadcrumb{
+        font-size: 0.6rem !important;
+        }
+        .breadcrumb-item a{
+        font-size: 0.6rem !important;
+        }
+}
+@media only screen and (max-width: 350px){
+    .breadcrumb{
+        font-size: 0.4rem !important;
+        }
+        .breadcrumb-item a{
+        font-size: 0.4rem !important;
+        }
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white;
 }
 /* banner content */
 /* .page-context-header{
