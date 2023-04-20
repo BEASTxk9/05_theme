@@ -489,6 +489,12 @@ img {
     display: block;
 }
 
+/* push login text to ceneter (shane) */
+.section .label .contentwithoutlink, .section .label .activityinstance {
+    padding-right: 0;
+    margin-top: 10vh;
+}
+
 /* Tristan update */
 /* centering content */
 .section .label .contentwithoutlink,
