@@ -32,6 +32,21 @@ display: flex!important;
 max-height: 20vh;
 overflow-y: scroll;
 }
+/* (shane) footer */
+#page-wrapper #page-footer {
+    background-color: #61223b !important;
+}
+#page-footer a {
+    color: rgba(255, 255, 255, 0.836) !important;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+#page-footer a:hover {
+    background-color: grey !important;
+    color: rgba(255, 255, 255, 0.836) !important;
+    text-decoration: none;
+}
+
 
 /* Tristan update */
 /*Centers login in mobile view*/
@@ -216,21 +231,42 @@ h3.card-title {
     background-size: cover;
     background-position: center;
 }
+/* banner responsivness (shane) */
+@media only screen and (max-width: 900.5px){
+    #page-header .card {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+    }
+    }
+@media only screen and (max-width: 600.5px){
+#page-header .card {
+    height: 150px;
+}
+}
 
 /* banner nav */
 /* shane update breadcrumb */
 .breadcrumb{
 padding: 0.2rem 0.2rem !important;
-background-color: rgba(128, 128, 128, 0.7) !important;
+background-color: #61223b93 !important;
+border: white 1px solid;
 color: white !important;
 font-size: 0.7rem !important;
 transition: all 0.3s ease-in-out;
-margin-top: 15vh;
+margin-top: 13vh;
 }
 .breadcrumb-item a{
     color: white !important;
 font-size: 0.7rem !important;
 transition: all 0.3s ease-in-out;
+background-color: transparent !important;
+border: none !important;
+}
+
+@media only screen and (max-width: 600px){
+    .breadcrumb{
+        margin-top: 8.5vh;
+        }
 }
 @media only screen and (max-width: 410px){
     .breadcrumb{
@@ -251,10 +287,20 @@ transition: all 0.3s ease-in-out;
 .breadcrumb-item+.breadcrumb-item::before {
     color: white;
 }
+div#page-navbar {
+    width: auto;
+    z-index: 500;
+}
 /* banner content */
-/* .page-context-header{
-display: none;
-} */
+
+/* hides banner heads h1(shane) */
+.page-context-header .page-header-headings, .page-context-header .header-button-group h1 {
+    display: none;
+}
+/* removes private files header(shane) */
+#page-header .card .align-items-center .mr-auto, .mx-auto {
+    display: none !important;
+}
 
 
 /* ________________________________________ */
