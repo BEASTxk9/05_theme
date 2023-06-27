@@ -256,7 +256,7 @@ transition: all 0.3s ease-in-out;
 margin-top: 13vh;
 }
 .breadcrumb-item a{
-    color: white !important;
+color: rgb(255, 255, 255) !important;
 font-size: 0.7rem !important;
 transition: all 0.3s ease-in-out;
 background-color: transparent !important;
