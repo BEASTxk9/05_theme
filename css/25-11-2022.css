@@ -1,4 +1,29 @@
 /* Shane update */
+/* width (shane)*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 0px;
+   background-color: rgba(255, 255, 255, 0.507);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 10px;
+  }
+
+
+  nav.list-group {
+    position: absolute;
+    bottom: 10px;
+    /* padding-top: 50vh; */
+}
+
 /* html skeleton */
 body {
     background-color: white;
@@ -35,16 +60,23 @@ overflow-y: scroll;
 /* (shane) footer */
 #page-wrapper #page-footer {
     background-color: #61223b !important;
+    border-top: 1px solid grey;
 }
 #page-footer a {
-    color: rgba(255, 255, 255, 0.836) !important;
+    color: #61223b !important;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
 }
-#page-footer a:hover {
-    background-color: grey !important;
-    color: rgba(255, 255, 255, 0.836) !important;
-    text-decoration: none;
+.img-footer {
+    background-color: #61223b;
+    box-shadow: none !important;
+    outline: 0px transparent !important;
+    width: 40px;
+    height: 40px;
+}
+
+/* remove nav btn from landing page (shane) */
+body#page-site-index nav div button {
+    display: none !important;
 }
 
 
@@ -69,9 +101,14 @@ marquee {
 }
 
 
-
 /* ________________________________________ */
 /* Shane update */
+
+/* remove nav btn from landing page (shane) */
+body#page-site-index nav div button {
+    display: none !important;
+}
+
 /* nav */
 div#page-navbar {
     position: relative;
@@ -80,6 +117,8 @@ div#page-navbar {
 
 div#page-navbar {
     width: auto;
+    background-color: rgba(255, 255, 255, 0.507);
+    border: 1px solid rgba(61, 60, 60, 0.301);
 }
 
 .navbar-light {
@@ -231,6 +270,16 @@ h3.card-title {
     background-size: cover;
     background-position: center;
 }
+
+/* banner responsivness big screens (shane) */
+@media only screen and (min-width: 1024px){
+	/*Small smartphones [325px -> 425px]*/
+    /* banner img */
+#page-header .card {
+    height: 30vh;
+}
+}
+
 /* banner responsivness (shane) */
 @media only screen and (max-width: 900.5px){
     #page-header .card {
@@ -244,11 +293,15 @@ h3.card-title {
 }
 }
 
+
+
+
+
 /* banner nav */
 /* shane update breadcrumb */
 .breadcrumb{
 padding: 0.2rem 0.2rem !important;
-background-color: #61223b93 !important;
+background-color: #61223bdc !important;
 border: white 1px solid;
 color: white !important;
 font-size: 0.7rem !important;
